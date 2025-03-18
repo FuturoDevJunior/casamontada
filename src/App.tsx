@@ -46,7 +46,7 @@ function App() {
       <section 
         className="pt-32 pb-20 px-4 bg-cover bg-center relative"
         style={{
-          backgroundImage: 'url("https://i.postimg.cc/7wj7sH7/WhatsApp-Image-2025-03-18-at-15-06-04.jpg")',
+          backgroundImage: 'url("https://images.unsplash.com/photo-1581360742512-021d5b2157d8?q=80&w=2000&auto=format&fit=crop")',
           backgroundBlendMode: 'overlay',
           backgroundPosition: 'center 30%'
         }}
@@ -118,7 +118,7 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="https://i.postimg.cc/7wj7sH7/WhatsApp-Image-2025-03-18-at-15-06-05-1.jpg" 
+                src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?q=80&w=1200&auto=format&fit=crop" 
                 alt="Montagem de Móveis no Rio de Janeiro" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -131,20 +131,20 @@ function App() {
             </div>
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="https://i.postimg.cc/7wj7sH7/WhatsApp-Image-2025-03-18-at-15-06-05-2.jpg" 
-                alt="Montagem de Móveis Residenciais" 
+                src="https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=1200&auto=format&fit=crop" 
+                alt="Instalação de Painéis e TVs" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
                 <div>
-                  <h3 className="text-xl font-semibold text-white mb-2">Móveis Residenciais</h3>
-                  <p className="text-gray-200">Montagem de móveis para sua casa</p>
+                  <h3 className="text-xl font-semibold text-white mb-2">Instalação de Painéis</h3>
+                  <p className="text-gray-200">Instalação profissional de painéis e TVs</p>
                 </div>
               </div>
             </div>
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="https://i.postimg.cc/7wj7sH7/WhatsApp-Image-2025-03-18-at-15-06-05-3.jpg" 
+                src="https://images.unsplash.com/photo-1595428775870-a5f656e3c3c5?q=80&w=1200&auto=format&fit=crop" 
                 alt="Desmontagem de Móveis Rio de Janeiro" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
