@@ -144,7 +144,7 @@ function App() {
             </div>
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?q=80&w=2940&auto=format&fit=crop" 
+                src="/images/painel-tv-1.jpg" 
                 alt="Desmontagem de Móveis" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
