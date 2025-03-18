@@ -46,8 +46,9 @@ function App() {
       <section 
         className="pt-32 pb-20 px-4 bg-cover bg-center relative"
         style={{
-          backgroundImage: 'url("/images/montagem-moveis-1.jpg")',
+          backgroundImage: 'url("https://i.postimg.cc/7wj7sH7/WhatsApp-Image-2025-03-18-at-15-06-04.jpg")',
           backgroundBlendMode: 'overlay',
+          backgroundPosition: 'center 30%'
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/40" />
@@ -117,7 +118,7 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="/images/montagem-moveis-2.jpg" 
+                src="https://i.postimg.cc/7wj7sH7/WhatsApp-Image-2025-03-18-at-15-06-05-1.jpg" 
                 alt="Montagem de Móveis no Rio de Janeiro" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -130,7 +131,7 @@ function App() {
             </div>
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="/images/montagem-moveis-3.jpg" 
+                src="https://i.postimg.cc/7wj7sH7/WhatsApp-Image-2025-03-18-at-15-06-05-2.jpg" 
                 alt="Montagem de Móveis Residenciais" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -143,7 +144,7 @@ function App() {
             </div>
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="/images/montagem-moveis-4.jpg" 
+                src="https://i.postimg.cc/7wj7sH7/WhatsApp-Image-2025-03-18-at-15-06-05-3.jpg" 
                 alt="Desmontagem de Móveis Rio de Janeiro" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
