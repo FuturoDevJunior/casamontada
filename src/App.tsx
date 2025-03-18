@@ -118,7 +118,7 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="/images/montagem-2.jpg" 
+                src="/images/guarda-roupa-2.jpg" 
                 alt="Montagem de Móveis" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -131,7 +131,7 @@ function App() {
             </div>
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="/images/guarda-roupa-1.jpg" 
+                src="/images/montagem-2.jpg" 
                 alt="Montagem de Guarda-Roupas" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -144,7 +144,7 @@ function App() {
             </div>
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="/images/guarda-roupa-2.jpg" 
+                src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?q=80&w=2940&auto=format&fit=crop" 
                 alt="Desmontagem de Móveis" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
