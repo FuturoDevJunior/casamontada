@@ -5,95 +5,79 @@
 </p>
 
 <p align="center">
-  Serviços profissionais de montagem e desmontagem de móveis no Rio de Janeiro
+  <strong>Excelência em Montagem de Móveis no Rio de Janeiro</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-18.3-61DAFB?logo=react" alt="React">
-  <img src="https://img.shields.io/badge/TypeScript-5.5-3178C6?logo=typescript" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite" alt="Vite">
-  <img src="https://img.shields.io/badge/Tailwind-3.4-38B2AC?logo=tailwind-css" alt="Tailwind">
-  <img src="https://img.shields.io/badge/ESLint-9.9-4B32C3?logo=eslint" alt="ESLint">
-</p>
-
-<p align="center">
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
+  <a href="https://casamontada.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Agende%20Agora-casamontada.vercel.app-1C1E26?style=for-the-badge&logo=vercel&logoColor=white" alt="Website">
+  </a>
 </p>
 
 <br>
 
-## 📋 Projeto
+## ✨ Por que escolher a Casa Montada?
 
-O Casa Montada é uma plataforma web profissional para serviços de montagem e desmontagem de móveis no Rio de Janeiro. Desenvolvida com tecnologias modernas para garantir performance, segurança e excelente experiência do usuário.
+Somos especialistas em transformar sua casa em um lar perfeito, oferecendo:
 
-### 🎯 Objetivos
+- 🛠️ **Montagem Profissional** - Equipe altamente qualificada e experiente
+- ⚡ **Agilidade** - Atendimento rápido e eficiente
+- 💎 **Qualidade Garantida** - Satisfação total em cada serviço
+- 🤝 **Confiança** - Profissionais verificados e confiáveis
+- 🏆 **Experiência** - Anos de expertise no mercado
 
-- Facilitar o agendamento de serviços de montagem
-- Oferecer transparência no processo
-- Garantir qualidade e profissionalismo
-- Proporcionar uma experiência digital excepcional
+## 🌟 Nossos Serviços
 
-## 🚀 Tecnologias
+### Montagem de Móveis
+- 🛏️ Dormitórios completos
+- 🪑 Salas de estar e jantar
+- 👔 Guarda-roupas planejados
+- 📺 Painéis de TV
+- 🏢 Móveis de escritório
 
-Este projeto foi desenvolvido com as seguintes tecnologias:
+### Diferenciais
+- 📱 Agendamento online rápido e fácil
+- 🎯 Orçamento transparente e sem surpresas
+- ⏰ Pontualidade garantida
+- 🛡️ Segurança em todo o processo
+- 🧹 Limpeza pós-serviço
 
-- ⚛️ **React** - Biblioteca JavaScript para criação de interfaces
-- 📘 **TypeScript** - Superset JavaScript com tipagem estática
-- ⚡ **Vite** - Build tool e bundler ultrarrápido
-- 🎨 **Tailwind CSS** - Framework CSS utility-first
-- 📱 **Responsive Design** - Layout adaptável para todos os dispositivos
-- 🔍 **SEO Otimizado** - Melhores práticas para motores de busca
-- 🛡️ **Segurança** - Headers e políticas de segurança configurados
-- 🚀 **Performance** - Otimizações para carregamento rápido
-- 📊 **Analytics** - Rastreamento e análise de dados
-- 🌐 **Vercel** - Plataforma de deploy e hospedagem
-
-## 💡 Features
-
-- ✨ Interface moderna e intuitiva
-- 📱 Design responsivo
-- 🔍 SEO otimizado
-- 🛡️ Segurança reforçada
-- 🚀 Performance otimizada
-- 📊 Analytics integrado
-- 🌐 Deploy automatizado
-
-## 🎨 Layout
+## 💫 Nossa Experiência
 
 <p align="center">
-  <img src="public/images/montagem-1.jpg" alt="Layout 1" width="400">
-  <img src="public/images/montagem-2.jpg" alt="Layout 2" width="400">
+  <img src="public/images/montagem-1.jpg" alt="Montagem Profissional" width="400">
+  <img src="public/images/montagem-2.jpg" alt="Resultado Final" width="400">
 </p>
 
-## 🚀 Como Executar
+## 🎯 Compromisso com a Qualidade
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/FuturoDevJunior/casamontada.git
+- ✅ **Profissionais Certificados**
+  - Equipe treinada e atualizada
+  - Ferramentas profissionais
+  - Técnicas modernas de montagem
 
-# Acesse a pasta do projeto
-$ cd casamontada
+- 🛡️ **Garantia de Serviço**
+  - Satisfação garantida
+  - Suporte pós-montagem
+  - Compromisso com prazos
 
-# Instale as dependências
-$ npm install
+- 💙 **Atendimento Premium**
+  - Comunicação clara e eficiente
+  - Suporte personalizado
+  - Acompanhamento do início ao fim
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev
-
-# O servidor inciará na porta:5173 - acesse http://localhost:5173
-```
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+<p align="center">
+  <a href="https://casamontada.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Solicite%20um%20Orçamento-Clique%20Aqui-success?style=for-the-badge&logo=vercel&logoColor=white" alt="Orçamento">
+  </a>
+</p>
 
 ---
 
 <p align="center">
-  Feito com 💜 por Gabriel Ferreira
+  <strong>Casa Montada</strong> - Excelência em cada detalhe 🏆
+</p>
+
+<p align="center">
+  Rio de Janeiro - RJ
 </p> 
