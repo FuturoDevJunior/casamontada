@@ -46,19 +46,19 @@ function App() {
       <section 
         className="pt-32 pb-20 px-4 bg-cover bg-center relative"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1581360742512-021d5b2157d8?q=80&w=2000&auto=format&fit=crop")',
+          backgroundImage: 'url("/images/montagem-1.jpg")',
           backgroundBlendMode: 'overlay',
-          backgroundPosition: 'center 30%'
+          backgroundPosition: 'center'
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/40" />
         <div className="container mx-auto relative">
           <div className="max-w-2xl">
             <h2 className="text-4xl md:text-6xl font-bold mb-6 text-white">
-              Montagem e Desmontagem de Móveis
+              Montagem e Desmontagem de Móveis em Todo Rio
             </h2>
             <p className="text-xl md:text-2xl mb-8 text-gray-100">
-              Serviço profissional com <span className="text-orange-400 font-semibold">90 dias de garantia</span> no Rio de Janeiro
+              Serviço profissional com <span className="text-orange-400 font-semibold">90 dias de garantia</span> em todas as regiões do Rio de Janeiro
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -88,14 +88,14 @@ function App() {
               <Shield className="w-16 h-16 text-orange-500 mb-6" />
               <h3 className="text-2xl font-semibold mb-4">90 Dias de Garantia</h3>
               <p className="text-gray-600 text-lg">
-                Garantia em todos os serviços de montagem e desmontagem. Sua satisfação é nossa prioridade.
+                Garantia em todos os serviços. Montamos e desmontamos qualquer tipo de móvel com segurança.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1">
               <Tool className="w-16 h-16 text-orange-500 mb-6" />
               <h3 className="text-2xl font-semibold mb-4">Profissionais Qualificados</h3>
               <p className="text-gray-600 text-lg">
-                Equipe experiente e especializada em montagem e desmontagem de móveis.
+                Equipe experiente em todos os tipos de móveis. Montagem e desmontagem com excelência.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1">
@@ -118,8 +118,8 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?q=80&w=1200&auto=format&fit=crop" 
-                alt="Montagem de Móveis no Rio de Janeiro" 
+                src="/images/montagem-2.jpg" 
+                alt="Montagem de Móveis" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
@@ -131,27 +131,27 @@ function App() {
             </div>
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=1200&auto=format&fit=crop" 
-                alt="Instalação de Painéis e TVs" 
+                src="/images/guarda-roupa-1.jpg" 
+                alt="Montagem de Guarda-Roupas" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
                 <div>
-                  <h3 className="text-xl font-semibold text-white mb-2">Instalação de Painéis</h3>
-                  <p className="text-gray-200">Instalação profissional de painéis e TVs</p>
+                  <h3 className="text-xl font-semibold text-white mb-2">Guarda-Roupas</h3>
+                  <p className="text-gray-200">Montagem e desmontagem especializada</p>
                 </div>
               </div>
             </div>
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="https://images.unsplash.com/photo-1595428775870-a5f656e3c3c5?q=80&w=1200&auto=format&fit=crop" 
-                alt="Desmontagem de Móveis Rio de Janeiro" 
+                src="/images/guarda-roupa-2.jpg" 
+                alt="Desmontagem de Móveis" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
                 <div>
-                  <h3 className="text-xl font-semibold text-white mb-2">Desmontagem de Móveis</h3>
-                  <p className="text-gray-200">Desmontagem segura para mudanças</p>
+                  <h3 className="text-xl font-semibold text-white mb-2">Desmontagem</h3>
+                  <p className="text-gray-200">Desmontagem cuidadosa para mudanças</p>
                 </div>
               </div>
             </div>
@@ -169,17 +169,17 @@ function App() {
             <div className="bg-white p-8 rounded-xl shadow-sm">
               <Clock className="w-12 h-12 text-orange-500 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Pontualidade</h3>
-              <p className="text-gray-600">Respeitamos seu tempo com agendamento preciso</p>
+              <p className="text-gray-600">Agendamento preciso e atendimento rápido</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-sm">
               <Star className="w-12 h-12 text-orange-500 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Qualidade Garantida</h3>
-              <p className="text-gray-600">Serviço impecável com garantia estendida</p>
+              <p className="text-gray-600">Serviço impecável com garantia de 90 dias</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-sm">
               <Truck className="w-12 h-12 text-orange-500 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Atendimento em Todo RJ</h3>
-              <p className="text-gray-600">Cobertura completa na região metropolitana</p>
+              <p className="text-gray-600">Todas as zonas e região metropolitana</p>
             </div>
           </div>
         </div>
@@ -189,7 +189,7 @@ function App() {
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-            Atendemos em toda Região do Rio
+            Atendemos em Todo Rio de Janeiro
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
@@ -198,13 +198,13 @@ function App() {
               'Zona Oeste',
               'Centro',
               'Barra da Tijuca',
-              'Copacabana',
-              'Ipanema',
-              'Tijuca',
-              'Botafogo',
-              'Flamengo',
-              'Leblon',
-              'Méier'
+              'Niterói',
+              'São Gonçalo',
+              'Baixada',
+              'Nova Iguaçu',
+              'Duque de Caxias',
+              'São João de Meriti',
+              'Nilópolis'
             ].map((area) => (
               <div key={area} className="flex items-center gap-3 p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-md transition-all">
                 <MapPin className="text-orange-500" size={24} />
@@ -219,11 +219,11 @@ function App() {
       <section className="py-20 px-4 bg-gradient-to-br from-orange-500 to-orange-600 text-white">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Precisando montar ou desmontar seus móveis?
+            Precisa Montar ou Desmontar Móveis?
           </h2>
           <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto">
             Entre em contato agora e solicite um orçamento sem compromisso. 
-            Atendemos em todo Rio de Janeiro!
+            Atendemos em todas as regiões do Rio de Janeiro!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
