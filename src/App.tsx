@@ -1,12 +1,22 @@
-import { Phone, MapPin, Shield, PenTool as Tool, CreditCard, ChevronRight, Clock, Star, Truck } from 'lucide-react';
+import {
+  ChevronRight,
+  Clock,
+  CreditCard,
+  MapPin,
+  PenTool as Tool,
+  Phone,
+  Shield,
+  Star,
+  Truck,
+} from 'lucide-react';
 
 function App() {
   // WhatsApp message templates
   const whatsappMessages = {
-    header: "Olá! Gostaria de um orçamento para montagem de móveis. 😊\n\n",
-    default: "Olá! Gostaria de um orçamento para montagem de móveis. 😊\n\nPreciso de ajuda com:",
-    quote: "Olá! Gostaria de um orçamento para montagem de móveis. 😊\n\nPreciso de:\n- Montagem/Desmontagem\n- Bairro: \n- Data preferencial: \n\nPoderia me ajudar?",
-    urgent: "Olá! Preciso de um serviço urgente de montagem. 🆘\n\nPoderia me ajudar?",
+    header: "Olá! Gostaria de um orçamento para montagem/desmontagem de móveis. 😊\n\n",
+    default: "Olá! Gostaria de um orçamento para montagem/desmontagem de móveis. 😊\n\nPreciso de ajuda com:",
+    quote: "Olá! Gostaria de um orçamento para móveis. 😊\n\nPreciso de:\n- Montagem/Desmontagem\n- Bairro: \n- Data preferencial: \n\nPoderia me ajudar?",
+    urgent: "Olá! Preciso de um serviço urgente de montagem/desmontagem. 🆘\n\nPoderia me ajudar?",
   };
 
   const getWhatsAppLink = (message: string) => {
@@ -36,7 +46,7 @@ function App() {
       <section 
         className="pt-32 pb-20 px-4 bg-cover bg-center relative"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1631679706909-1844bbd07221?q=80&w=1920&auto=format&fit=crop")',
+          backgroundImage: 'url("/images/montagem-moveis-1.jpg")',
           backgroundBlendMode: 'overlay',
         }}
       >
@@ -84,7 +94,7 @@ function App() {
               <Tool className="w-16 h-16 text-orange-500 mb-6" />
               <h3 className="text-2xl font-semibold mb-4">Profissionais Qualificados</h3>
               <p className="text-gray-600 text-lg">
-                Equipe experiente e especializada em montagem de móveis de todos os tipos.
+                Equipe experiente e especializada em montagem e desmontagem de móveis.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1">
@@ -107,7 +117,7 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?q=80&w=800&auto=format&fit=crop" 
+                src="/images/montagem-moveis-2.jpg" 
                 alt="Montagem de Móveis no Rio de Janeiro" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -120,20 +130,20 @@ function App() {
             </div>
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?q=80&w=800&auto=format&fit=crop" 
-                alt="Montagem de Cozinhas Planejadas RJ" 
+                src="/images/montagem-moveis-3.jpg" 
+                alt="Montagem de Móveis Residenciais" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
                 <div>
-                  <h3 className="text-xl font-semibold text-white mb-2">Montagem de Cozinhas</h3>
-                  <p className="text-gray-200">Especialistas em cozinhas planejadas</p>
+                  <h3 className="text-xl font-semibold text-white mb-2">Móveis Residenciais</h3>
+                  <p className="text-gray-200">Montagem de móveis para sua casa</p>
                 </div>
               </div>
             </div>
             <div className="group relative overflow-hidden rounded-xl">
               <img 
-                src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=800&auto=format&fit=crop" 
+                src="/images/montagem-moveis-4.jpg" 
                 alt="Desmontagem de Móveis Rio de Janeiro" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -208,7 +218,7 @@ function App() {
       <section className="py-20 px-4 bg-gradient-to-br from-orange-500 to-orange-600 text-white">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Precisando montar seus móveis?
+            Precisando montar ou desmontar seus móveis?
           </h2>
           <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto">
             Entre em contato agora e solicite um orçamento sem compromisso. 
@@ -245,28 +255,18 @@ function App() {
           </p>
           <div className="h-px w-32 bg-gray-800 mx-auto mb-6" />
           <p className="text-sm text-gray-500">
-            © 2025 CASA MONTADA. Desenvolvido por{' '}
+            © 2024 CASA MONTADA. Desenvolvido por{' '}
             <a
               href="https://www.linkedin.com/in/DevFerreiraG"
               target="_blank"
               rel="noopener noreferrer"
               className="text-orange-500 hover:text-orange-400"
             >
-              DevFerreiraG
+              Gabriel Ferreira
             </a>
           </p>
         </div>
       </footer>
-
-      {/* Floating WhatsApp Button */}
-      <a
-        href={getWhatsAppLink(whatsappMessages.default)}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all transform hover:scale-110 z-50"
-      >
-        <Phone size={24} />
-      </a>
     </div>
   );
 }
