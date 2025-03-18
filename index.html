@@ -17,6 +17,15 @@
     <meta name="rating" content="general" />
     <meta name="revisit-after" content="7 days" />
     <meta name="format-detection" content="telephone=yes" />
+    <meta name="google" content="notranslate" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="application-name" content="CASA MONTADA" />
+    <meta name="apple-mobile-web-app-title" content="CASA MONTADA" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://casamontada.vercel.app/" />
 
     <!-- Cache Control -->
     <meta http-equiv="Cache-Control" content="max-age=31536000" />
@@ -27,7 +36,9 @@
     <meta property="og:site_name" content="CASA MONTADA" />
     <meta property="og:title" content="CASA MONTADA | Montagem e Desmontagem de Móveis em Todo Rio de Janeiro" />
     <meta property="og:description" content="Serviço profissional de montagem e desmontagem de móveis em todas as regiões do Rio de Janeiro. 90 dias de garantia, atendimento em todas as zonas e região metropolitana. Montadores especializados em todos os tipos de móveis. Orçamento grátis!" />
-    <meta property="og:image" content="/images/montagem-1.jpg" />
+    <meta property="og:image" content="https://casamontada.vercel.app/images/montagem-1.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:price:amount" content="100" />
     <meta property="og:price:currency" content="BRL" />
@@ -39,7 +50,9 @@
     <meta property="twitter:url" content="https://casamontada.vercel.app/" />
     <meta property="twitter:title" content="CASA MONTADA | Montagem e Desmontagem de Móveis em Todo Rio de Janeiro" />
     <meta property="twitter:description" content="Serviço profissional de montagem e desmontagem de móveis em todas as regiões do Rio de Janeiro. 90 dias de garantia, atendimento em todas as zonas e região metropolitana." />
-    <meta property="twitter:image" content="/images/montagem-1.jpg" />
+    <meta property="twitter:image" content="https://casamontada.vercel.app/images/montagem-1.jpg" />
+    <meta name="twitter:creator" content="@casamontada" />
+    <meta name="twitter:site" content="@casamontada" />
 
     <!-- Geo Location Tags -->
     <meta name="geo.region" content="BR-RJ" />
@@ -53,7 +66,7 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "CASA MONTADA",
-        "image": "/images/painel-tv-1.jpg",
+        "image": "https://casamontada.vercel.app/images/painel-tv-1.jpg",
         "description": "Serviço profissional de montagem e desmontagem de móveis no Rio de Janeiro com 90 dias de garantia.",
         "@id": "https://casamontada.vercel.app",
         "url": "https://casamontada.vercel.app",
@@ -100,7 +113,11 @@
           }
         ],
         "paymentAccepted": ["cash", "credit card", "debit card", "pix"],
-        "currenciesAccepted": "BRL"
+        "currenciesAccepted": "BRL",
+        "sameAs": [
+          "https://www.instagram.com/casamontada",
+          "https://www.facebook.com/casamontada"
+        ]
       }
     </script>
 
@@ -113,7 +130,7 @@
         "provider": {
           "@type": "LocalBusiness",
           "name": "CASA MONTADA",
-          "image": "/images/montagem-1.jpg"
+          "image": "https://casamontada.vercel.app/images/montagem-1.jpg"
         },
         "areaServed": {
           "@type": "City",
@@ -129,6 +146,11 @@
                 "@type": "Service",
                 "name": "Montagem de Móveis",
                 "description": "Montagem profissional de qualquer tipo de móvel com garantia"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "priceCurrency": "BRL",
+                "minPrice": 100
               }
             },
             {
@@ -137,6 +159,11 @@
                 "@type": "Service",
                 "name": "Desmontagem de Móveis",
                 "description": "Desmontagem cuidadosa e segura para mudanças"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "priceCurrency": "BRL",
+                "minPrice": 100
               }
             },
             {
@@ -145,6 +172,11 @@
                 "@type": "Service",
                 "name": "Montagem e Desmontagem",
                 "description": "Serviço completo de montagem e desmontagem para mudanças"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "priceCurrency": "BRL",
+                "minPrice": 200
               }
             }
           ]
@@ -209,6 +241,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/android-chrome-512x512.png" color="#f97316">
+    <meta name="msapplication-TileColor" content="#f97316">
     <meta name="theme-color" content="#f97316">
 
     <!-- Preconnect to external resources -->

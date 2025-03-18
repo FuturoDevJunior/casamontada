@@ -46,7 +46,7 @@ function App() {
       <section 
         className="pt-32 pb-20 px-4 bg-cover bg-center relative"
         style={{
-          backgroundImage: 'url("/images/montagem-1.jpg")',
+          backgroundImage: 'url("https://images.unsplash.com/photo-1631679706909-1844bbd07221?q=80&w=2940&auto=format&fit=crop")',
           backgroundBlendMode: 'overlay',
           backgroundPosition: 'center'
         }}
