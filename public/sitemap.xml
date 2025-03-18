@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://casamontada.vercel.app/</loc>
-    <lastmod>2024-03-19</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2024-03-19T00:00:00-03:00</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://casamontada.vercel.app/images/montagem-1.jpg</image:loc>
+      <image:title>Montagem de Móveis Profissional</image:title>
+      <image:caption>Serviço de montagem de móveis no Rio de Janeiro</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://casamontada.vercel.app/images/montagem-2.jpg</image:loc>
+      <image:title>Montagem de Móveis Especializada</image:title>
+      <image:caption>Montagem profissional de móveis com garantia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://casamontada.vercel.app/images/guarda-roupa-1.jpg</image:loc>
+      <image:title>Montagem de Guarda-Roupas</image:title>
+      <image:caption>Montagem especializada de guarda-roupas</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://casamontada.vercel.app/images/guarda-roupa-2.jpg</image:loc>
+      <image:title>Desmontagem de Móveis</image:title>
+      <image:caption>Serviço de desmontagem para mudanças</image:caption>
+    </image:image>
   </url>
 </urlset> 

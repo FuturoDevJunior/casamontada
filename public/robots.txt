@@ -1,4 +1,32 @@
 User-agent: *
 Allow: /
+Allow: /images/
+Allow: /sitemap.xml
 
-Sitemap: https://casamontada.vercel.app/sitemap.xml 
+# Otimizações de crawling
+Crawl-delay: 10
+
+# Sitemap
+Sitemap: https://casamontada.vercel.app/sitemap.xml
+
+# Host
+Host: https://casamontada.vercel.app
+
+# Regras específicas para bots de redes sociais
+User-agent: Twitterbot
+Allow: /
+Allow: /images/
+
+User-agent: facebookexternalhit
+Allow: /
+Allow: /images/
+
+# Regras para outros bots
+User-agent: Googlebot-Image
+Allow: /images/
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: / 
