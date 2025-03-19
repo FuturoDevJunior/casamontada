@@ -5,6 +5,14 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <!-- Cache Control -->
+    <meta http-equiv="Cache-Control" content="public, max-age=31536000, immutable" />
+    <meta http-equiv="Expires" content="31536000" />
+    
+    <!-- Performance Optimizations -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-961796313">
     </script>
@@ -12,7 +20,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'AW-961796313');
     </script>
 
@@ -45,9 +52,6 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://casamontada.vercel.app/" />
 
-    <!-- Cache Control -->
-    <meta http-equiv="Cache-Control" content="max-age=31536000" />
-    
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://casamontada.vercel.app/" />
@@ -181,52 +185,38 @@
               "availability": "https://schema.org/InStock",
               "validFrom": "2024-01-01",
               "warranty": "90 dias de garantia em todos os serviços"
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Desmontagem de Móveis",
-                "description": "Desmontagem cuidadosa e segura para mudanças"
-              },
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "priceCurrency": "BRL",
-                "minPrice": 100
-              },
-              "availability": "https://schema.org/InStock",
-              "validFrom": "2024-01-01",
-              "warranty": "90 dias de garantia em todos os serviços"
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Montagem e Desmontagem",
-                "description": "Serviço completo de montagem e desmontagem para mudanças"
-              },
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "priceCurrency": "BRL",
-                "minPrice": 200
-              },
-              "availability": "https://schema.org/InStock",
-              "validFrom": "2024-01-01",
-              "warranty": "90 dias de garantia em todos os serviços"
             }
           ]
         },
         "aggregateRating": {
+          "@context": "https://schema.org/",
           "@type": "AggregateRating",
+          "itemReviewed": {
+            "@type": "LocalBusiness",
+            "name": "CASA MONTADA - Montagem de Móveis",
+            "image": "https://casamontada.vercel.app/images/montagem-1.jpg",
+            "description": "Serviço profissional de montagem e desmontagem de móveis no Rio de Janeiro"
+          },
           "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "150",
           "reviewCount": "150"
         },
         "review": {
+          "@context": "https://schema.org/",
           "@type": "Review",
+          "itemReviewed": {
+            "@type": "LocalBusiness",
+            "name": "CASA MONTADA - Montagem de Móveis",
+            "image": "https://casamontada.vercel.app/images/montagem-1.jpg",
+            "description": "Serviço profissional de montagem e desmontagem de móveis no Rio de Janeiro"
+          },
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
-            "bestRating": "5"
+            "bestRating": "5",
+            "worstRating": "1"
           },
           "author": {
             "@type": "Person",
@@ -301,11 +291,36 @@
     <!-- Preconnect to external resources -->
     <link rel="preconnect" href="https://images.unsplash.com">
 
-    <!-- Preload de recursos críticos -->
-    <link rel="preload" as="image" href="/images/montagem-1.jpg" />
-    <link rel="preload" as="image" href="/logo.png" />
+    <!-- Preload Critical Resources -->
+    <link rel="preload" as="image" href="/images/montagem-1.jpg" fetchpriority="high" />
+    <link rel="preload" as="image" href="/logo.png" fetchpriority="high" />
+    <link rel="preload" as="script" href="/src/main.tsx" />
+    
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
     <link rel="dns-prefetch" href="https://images.unsplash.com" />
+    
+    <!-- Preconnect -->
     <link rel="preconnect" href="https://images.unsplash.com" crossorigin="anonymous" />
+    
+    <!-- Resource Hints -->
+    <link rel="prefetch" href="/images/montagem-2.jpg" />
+    <link rel="prefetch" href="/images/guarda-roupa-1.jpg" />
+    <link rel="prefetch" href="/images/guarda-roupa-2.jpg" />
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then(registration => {
+            console.log('SW registered:', registration);
+          }).catch(error => {
+            console.log('SW registration failed:', error);
+          });
+        });
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

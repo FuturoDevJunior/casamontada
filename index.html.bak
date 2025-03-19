@@ -181,52 +181,38 @@
               "availability": "https://schema.org/InStock",
               "validFrom": "2024-01-01",
               "warranty": "90 dias de garantia em todos os serviços"
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Desmontagem de Móveis",
-                "description": "Desmontagem cuidadosa e segura para mudanças"
-              },
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "priceCurrency": "BRL",
-                "minPrice": 100
-              },
-              "availability": "https://schema.org/InStock",
-              "validFrom": "2024-01-01",
-              "warranty": "90 dias de garantia em todos os serviços"
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Montagem e Desmontagem",
-                "description": "Serviço completo de montagem e desmontagem para mudanças"
-              },
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "priceCurrency": "BRL",
-                "minPrice": 200
-              },
-              "availability": "https://schema.org/InStock",
-              "validFrom": "2024-01-01",
-              "warranty": "90 dias de garantia em todos os serviços"
             }
           ]
         },
         "aggregateRating": {
+          "@context": "https://schema.org/",
           "@type": "AggregateRating",
+          "itemReviewed": {
+            "@type": "LocalBusiness",
+            "name": "CASA MONTADA - Montagem de Móveis",
+            "image": "https://casamontada.vercel.app/images/montagem-1.jpg",
+            "description": "Serviço profissional de montagem e desmontagem de móveis no Rio de Janeiro"
+          },
           "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "150",
           "reviewCount": "150"
         },
         "review": {
+          "@context": "https://schema.org/",
           "@type": "Review",
+          "itemReviewed": {
+            "@type": "LocalBusiness",
+            "name": "CASA MONTADA - Montagem de Móveis",
+            "image": "https://casamontada.vercel.app/images/montagem-1.jpg",
+            "description": "Serviço profissional de montagem e desmontagem de móveis no Rio de Janeiro"
+          },
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
-            "bestRating": "5"
+            "bestRating": "5",
+            "worstRating": "1"
           },
           "author": {
             "@type": "Person",

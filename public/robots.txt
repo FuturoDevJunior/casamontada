@@ -1,18 +1,51 @@
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
-Allow: /images/
-Allow: /sitemap.xml
-
-# Otimizações de crawling
-Crawl-delay: 10
-
-# Sitemap
-Sitemap: https://casamontada.vercel.app/sitemap.xml
 
 # Host
 Host: https://casamontada.vercel.app
 
-# Regras específicas para bots de redes sociais
+# Sitemap
+Sitemap: https://casamontada.vercel.app/sitemap.xml
+
+# Diretórios e arquivos específicos
+Disallow: /api/
+Disallow: /.env
+Disallow: /.env.*
+Disallow: /.git
+Disallow: /.github
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /public/assets/
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.scss$
+Disallow: /*.sass$
+Disallow: /*.less$
+Disallow: /*.map$
+
+# Permitir acesso a recursos estáticos específicos
+Allow: /images/
+Allow: /favicon.ico
+Allow: /robots.txt
+Allow: /sitemap.xml
+Allow: /manifest.json
+Allow: /assets/*.css$
+Allow: /assets/*.js$
+Allow: /static/
+
+# Crawl-delay para bots específicos
+User-agent: Googlebot
+Crawl-delay: 1
+
+User-agent: bingbot
+Crawl-delay: 1
+
+User-agent: Yandex
+Crawl-delay: 1
+
+# Bots de redes sociais
 User-agent: Twitterbot
 Allow: /
 Allow: /images/
@@ -21,12 +54,18 @@ User-agent: facebookexternalhit
 Allow: /
 Allow: /images/
 
-# Regras para outros bots
-User-agent: Googlebot-Image
-Allow: /images/
+# Bloquear bots maliciosos conhecidos
+User-agent: MJ12bot
+Disallow: /
 
-User-agent: Mediapartners-Google
-Allow: /
+User-agent: AhrefsBot
+Disallow: /
 
-User-agent: Adsbot-Google
-Allow: / 
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: Rogerbot
+Disallow: / 
