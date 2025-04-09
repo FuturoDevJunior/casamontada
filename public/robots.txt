@@ -3,10 +3,10 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://casamontada.vercel.app
+Host: https://www.casamontada.org
 
 # Sitemap
-Sitemap: https://casamontada.vercel.app/sitemap.xml
+Sitemap: https://www.casamontada.org/sitemap.xml
 
 # Diretórios e arquivos específicos
 Disallow: /api/
@@ -68,4 +68,4 @@ User-agent: DotBot
 Disallow: /
 
 User-agent: Rogerbot
-Disallow: / 
+Disallow: /

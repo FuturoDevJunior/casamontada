@@ -20,7 +20,7 @@ function App() {
   };
 
   const getWhatsAppLink = (message: string) => {
-    return `https://wa.me/5521979155398?text=${encodeURIComponent(message)}`;
+    return `https://wa.me/5521982776171?text=${encodeURIComponent(message)}`;
   };
 
   return (

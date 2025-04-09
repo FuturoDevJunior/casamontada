@@ -10,27 +10,27 @@
 
   <!-- Página Inicial -->
   <url>
-    <loc>https://casamontada.vercel.app/</loc>
+    <loc>https://www.casamontada.org/</loc>
     <lastmod>2024-03-19T00:00:00-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://casamontada.vercel.app/images/montagem-1.jpg</image:loc>
+      <image:loc>https://www.casamontada.org/images/montagem-1.jpg</image:loc>
       <image:title>Montagem de Móveis Profissional</image:title>
-      <image:caption>Serviço de montagem de móveis no Rio de Janeiro</image:caption>
+      <image:caption>Serviço de montagem de móveis em todos os bairros do Rio de Janeiro</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://casamontada.vercel.app/images/montagem-2.jpg</image:loc>
+      <image:loc>https://www.casamontada.org/images/montagem-2.jpg</image:loc>
       <image:title>Montagem de Móveis Especializada</image:title>
       <image:caption>Montagem profissional de móveis com garantia</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://casamontada.vercel.app/images/guarda-roupa-1.jpg</image:loc>
+      <image:loc>https://www.casamontada.org/images/guarda-roupa-1.jpg</image:loc>
       <image:title>Montagem de Guarda-Roupas</image:title>
       <image:caption>Montagem especializada de guarda-roupas</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://casamontada.vercel.app/images/guarda-roupa-2.jpg</image:loc>
+      <image:loc>https://www.casamontada.org/images/guarda-roupa-2.jpg</image:loc>
       <image:title>Desmontagem de Móveis</image:title>
       <image:caption>Serviço de desmontagem para mudanças</image:caption>
     </image:image>
@@ -38,7 +38,7 @@
 
   <!-- Seção de Serviços -->
   <url>
-    <loc>https://casamontada.vercel.app/#servicos</loc>
+    <loc>https://www.casamontada.org/#servicos</loc>
     <lastmod>2024-03-19T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -46,7 +46,7 @@
 
   <!-- Seção de Contato -->
   <url>
-    <loc>https://casamontada.vercel.app/#contato</loc>
+    <loc>https://www.casamontada.org/#contato</loc>
     <lastmod>2024-03-19T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -54,12 +54,12 @@
 
   <!-- Imagens Principais -->
   <url>
-    <loc>https://casamontada.vercel.app/images/montagem-1.jpg</loc>
+    <loc>https://www.casamontada.org/images/montagem-1.jpg</loc>
     <lastmod>2024-03-19T00:00:00-03:00</lastmod>
     <image:image>
-      <image:loc>https://casamontada.vercel.app/images/montagem-1.jpg</image:loc>
+      <image:loc>https://www.casamontada.org/images/montagem-1.jpg</image:loc>
       <image:title>Montagem de Móveis Profissional</image:title>
-      <image:caption>Serviço de montagem de móveis no Rio de Janeiro</image:caption>
+      <image:caption>Serviço de montagem de móveis em todos os bairros do Rio de Janeiro</image:caption>
     </image:image>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -67,9 +67,9 @@
 
   <!-- Recursos Estáticos -->
   <url>
-    <loc>https://casamontada.vercel.app/manifest.json</loc>
+    <loc>https://www.casamontada.org/manifest.json</loc>
     <lastmod>2024-03-19T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
-</urlset> 
+</urlset>
